@@ -256,6 +256,9 @@ public class ImageViewer
         filterList.add(new EdgeFilter("Edge Detection"));
         filterList.add(new FishEyeFilter("Fish Eye"));
         filterList.add(new VintageFilter("Vintage"));
+        filterList.add(new NoRedFilter("No Red"));
+        filterList.add(new NoGreenFilter("No Green"));
+        filterList.add(new NoBlueFilter("No Blue"));
        
         return filterList;
     }
